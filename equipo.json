@@ -1,8 +1,8 @@
 {
-  "equipo": "G00",
+  "equipo": "G07",
   "integrantes": [
-    { "nombre": "Nombre Apellido", "codigo": "CODIGO UTEC" },
-    { "nombre": "Nombre Apellido", "codigo": "CODIGO UTEC" },
-    { "nombre": "Nombre Apellido", "codigo": "CODIGO UTEC" }
+    { "nombre": "Valentina Puicon", "codigo": "202510090" },
+    { "nombre": "Nayra Paredes",        "codigo": "202510441" },
+    { "nombre": "...",              "codigo": "2025XXXXX" }
   ]
 }
