@@ -2,6 +2,8 @@
   "equipo": "G07",
   "integrantes": [
     { "nombre": "Valentina Yamile Puicon Arapa", "codigo": "202510090" },
-    { "nombre": "Nayra Kamila Paredes Rodriguez",        "codigo": "202510441" }
+    { "nombre": "Nayra Kamila Paredes Rodriguez",        "codigo": "202510441" },
+ { "nombre": "...",        "codigo": "..." }
+
   ]
 }
