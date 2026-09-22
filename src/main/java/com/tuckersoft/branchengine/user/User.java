@@ -1,11 +1,14 @@
 package com.tuckersoft.branchengine.user;
 
+import com.tuckersoft.branchengine.playthrough.Playthrough;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import java.time.Instant;
+import java.util.ArrayList;
+import java.util.List;
 
 @Entity
 @Table(name = "users")
@@ -33,7 +36,6 @@ public class User {
     @Column(nullable = false)
     private Instant createdAt;
 
-    // TODO cuando exista Playthrough:
-    // @OneToMany(mappedBy = "user")
-    // private List<Playthrough> playthroughs = new ArrayList<>();
+    @OneToMany(mappedBy = "user")
+    private List<Playthrough> playthroughs = new ArrayList<>();
 }
